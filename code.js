@@ -1,9 +1,11 @@
 function e(n) {
+    let addition = 0;
+    let fact = 1;
     for (let i = 0; i <= n; i++) {
         if (i > 0) {
-            factorial *= i;
+            fact *= i;
         }
-        sum += (1.0 / factorial);
+        addition += (1.0 / fact);
     }
-return sum;
+return addition;
 }
